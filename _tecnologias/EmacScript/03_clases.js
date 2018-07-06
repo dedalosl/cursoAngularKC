@@ -1,7 +1,7 @@
 class Libro {
-    constructor(autor, libro) {
+    constructor(autor, titulo) {
         this.autor = autor
-        this.libro = libro
+        this.titulo = titulo
     }
 
     mostrar(){
