@@ -4,10 +4,12 @@ import { HeadComponent } from './head/head.component';
 import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
 import { MainComponent } from './main/main.component';
+import { RouterModule } from '../../../node_modules/@angular/router';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   declarations: [
     HeadComponent,
