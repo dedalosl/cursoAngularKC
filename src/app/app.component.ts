@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'KeepCoding';
+<<<<<<< HEAD
   logo = '../assets/logoAngular.svg';
+=======
+>>>>>>> 47e775fc9e4795e0ec3e03493061699c1ea42c8c
 }
