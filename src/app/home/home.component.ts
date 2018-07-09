@@ -3,9 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'kc-home',
   template: `
-    <p>
-      home works!
-    </p>
+    <div class="row">
+      <kc-saludo class="col"></kc-saludo>
+    </div>
   `,
   styles: []
 })
