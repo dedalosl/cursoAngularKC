@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <div class="row">
       <kc-saludo class="col"></kc-saludo>
+      <kc-referencias class="col"></kc-referencias>
     </div>
   `,
   styles: []
