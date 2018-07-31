@@ -1,0 +1,10 @@
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Catalogo</h4>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item" *ngFor="let libro of libros">
+      <a [routerLink]="['./book', libro.id]">{{libro.id}} - {{libro.title}}</a>
+    </li>
+  </ul>
+</div>
